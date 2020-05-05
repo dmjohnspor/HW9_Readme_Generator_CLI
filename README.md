@@ -4,8 +4,8 @@
 > App that generates a readme file according to user input. Part of bootcamp studies (homework #9).
 
 ![GitHub stars](https://img.shields.io/github/stars/dmjohnspor/HW9_Readme_Generator_CLI?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/dmjohnspor/HW9_Readme_Generator_CLI
-![GitHub repo size](https://img.shields.io/github/repo-size/dmjohnspor/HW9_Readme_Generator_CLI
+![GitHub contributors](https://img.shields.io/github/contributors/dmjohnspor/HW9_Readme_Generator_CLI)
+![GitHub repo size](https://img.shields.io/github/repo-size/dmjohnspor/HW9_Readme_Generator_CLI)
 ![Star Wars](https://img.shields.io/badge/may%20the%20force-be%20with%20you-blue)
 
 ## Table of Contents
