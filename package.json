@@ -1,7 +1,7 @@
 {
   "name": "hw9_readme_generator_cli",
   "version": "1.0.0",
-  "description": "> This is a description of my app",
+  "description": "CLI that collects user data and generates a readme.md file.",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^7.1.0"
