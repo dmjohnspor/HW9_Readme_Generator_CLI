@@ -3,6 +3,9 @@ const fs = require("fs");
 const util = require("util");
 const questions = require("./questions")
 
+const figlet = require("figlet");
+const chalk = require('chalk');
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function userPrompts() { return inquirer.prompt(questions) }
@@ -87,4 +90,20 @@ async function init() {
   }
 }
 
-init();
+figlet("Readme", function (err, data) {
+  if (err) {
+    console.log('Something went wrong...');
+    console.dir(err);
+    return;
+  }
+  console.log(chalk.yellowBright(data));
+  figlet("Generator", function (err, data) {
+    if (err) {
+      console.log('Something went wrong...');
+      console.dir(err);
+      return;
+    }
+    console.log(chalk.redBright(data));
+    init();
+  });
+});

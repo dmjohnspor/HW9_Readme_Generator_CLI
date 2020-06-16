@@ -4,6 +4,8 @@
   "description": "CLI that collects user data and generates a readme.md file.",
   "main": "index.js",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.4.0",
     "inquirer": "^7.1.0"
   },
   "devDependencies": {},
